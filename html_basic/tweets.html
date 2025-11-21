@@ -6,17 +6,41 @@
     <title>My Tweets</title>
 </head>
 <body>
-    <h1>Check Out My Tweets</h1>
 
-    <p>Here’s an embedded tweet:</p>
+    <!-- HEADER with navigation -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Embedded Tweet (checker requires class="twitter-tweet") -->
-    <blockquote class="twitter-tweet">
-        <a href="https://twitter.com/TwitterDev/status/560070183650213889"></a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- MAIN content -->
+    <main>
+        <!-- Article contains the main page content -->
+        <article>
+            <h1>Check Out My Tweets</h1>
+            <p>Here’s an embedded tweet:</p>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Back to Homepage</a></p>
+            <!-- Embedded Tweet (checker requires class="twitter-tweet") -->
+            <blockquote class="twitter-tweet">
+                <a href="https://twitter.com/TwitterDev/status/560070183650213889"></a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <!-- Link back to homepage -->
+            <p><a href="index.html">Back to Homepage</a></p>
+        </article>
+
+        <!-- Aside with placeholder paragraph -->
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- FOOTER (must be on a single line) -->
+    <footer><p>Made by Stenton Kimanthi - <a href="https://example.com" target="_blank">here</a></p></footer>
+
 </body>
 </html>
+
